@@ -1,0 +1,38 @@
+.form-info form {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.form-info p {
+    margin-left: 15rem;
+}
+
+.form-input {
+    display: grid;
+    grid-template-columns: 25% 65%;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.form-input input {
+    padding: 8px 12px;
+    border-bottom: 1px solid black;
+}
+
+.form-input select {
+    padding: 8px 12px;
+    border-bottom: 1px solid black;
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.position input {
+    width: 17vw;
+}
+
+.text-danger {
+    color: red;
+}
